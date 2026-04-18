@@ -11,7 +11,7 @@ export function HeroSection() {
         {/* Text Content */}
         <div>
           <p className="text-primary font-mono text-sm mb-4 tracking-wider">
-            Halo, nama saya
+            Halo, nama saya dawam
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 text-balance">
             Muhammad Dawam Amru Bittaqwa
