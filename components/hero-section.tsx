@@ -17,7 +17,7 @@ export function HeroSection() {
             Muhammad Dawam Amru Bittaqwa
           </h1>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-muted-foreground mb-8 text-balance">
-            Full Stack Developer
+            junior Developer
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl leading-relaxed mb-12">
             Saya adalah seorang developer yang passionate dalam membangun aplikasi web modern 

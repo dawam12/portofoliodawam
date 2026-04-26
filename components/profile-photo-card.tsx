@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Card } from "@/components/ui/card"
 
 interface ProfilePhotoCardProps {
-  src: string
+  src?: string
   alt?: string
   name?: string
   title?: string
@@ -14,7 +14,7 @@ export function ProfilePhotoCard({
   src = "/screen.png",
   alt = "Muhammad Dawam Amru Bittaqwa",
   name = "Muhammad Dawam Amru Bittaqwa",
-  title = "Full Stack Developer"
+  title = "junior Developer"
 }: ProfilePhotoCardProps) {
   return (
     <Card className="overflow-hidden max-w-sm mx-auto bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20">
